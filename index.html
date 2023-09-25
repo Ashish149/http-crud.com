@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="imgs">
+        <img src="https://www.commbox.io/wp-content/uploads/2019/10/32-1-1024x597.jpg" alt="" width="200"height="100">
+    </div>
+   
+   <fieldset>
+   <legend>
+    <h1>Employee</h1>
+   </legend>
+    <form id="form">
+        <input type="text"id="name" name="Name" placeholder="Name" >
+        <br><br>
+        <input type="text"id="job" name="job" placeholder="job" >
+        <br><br>
+        <input type="text"id="exp" name="Experience" placeholder="Experience" >
+        <br><br>
+         <input type="button" value="Submit" id="btn" onclick="Submit()">
+         <input type="reset" id="gh"value="reset">
+    </form>
+   </fieldset>
+   <br>
+   <br>
+   <div id="msg"></div><br>
+   <fieldset>
+    <legend>
+        <h1>Data from local Storage</h1>
+        <table border="3" id="table">
+            <tr>
+                <td class="col">Name</td>
+                <td class="col">job </td>
+                <td class="col">Experience</td>
+                <td class ="col">Action</td>
+            </tr>
+        </table>
+    </legend>
+   </fieldset>
+   
+</body>
+<script src="script.js"></script>
+</html>
